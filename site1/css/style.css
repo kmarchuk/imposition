@@ -1,0 +1,142 @@
+@import url(reset.css);
+
+body {
+	background: url(../img/main_bg.png);
+	font: 14px/1.5 Arial, Verdana, sans-serif;
+	color: #353535;
+	text-align: center;
+}
+
+h1 {
+	font-size: 55px;
+	font-weight: bold;
+	line-height: 1.4;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+a {
+	color: #353535;
+	text-decoration: none;
+}
+
+a:hover, #menu .current {
+	text-decoration: underline;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	overflow: hidden;
+}
+
+#logo {
+	height: 136px;
+	width: 204px;
+	float: left;
+	margin-left: -2px;
+}
+
+#menu {
+	width: 958px;
+	height: 70px;
+	background: url(../img/menu_bg.png) no-repeat;
+}
+
+#menu ul {
+	padding-left: 40px;
+	padding-top: 23px;
+	overflow: hidden;
+}
+
+#menu ul li{
+	float: left;
+	font: bold 18px Arial, Verdana, sans-serif;
+	color: #ffffff;
+	margin-right: 70px;
+	
+}
+
+#menu ul li a {
+	color: #ffffff;
+}
+
+#menu ul li span{
+	color: #ff1600
+}
+
+
+#menu .phone {
+	float: right;
+	margin-right: 30px;
+}
+
+.divider {
+	width: 572px;
+	height: 26px;
+	background: url(../img/divider.png) no-repeat;
+	margin: 35px auto 15px auto;
+}
+
+#content {
+	width: 590px;
+	margin: 0 auto;
+}
+
+.red-headline {
+	font-size: 30px;
+	font-weight: bold;
+	color: #a03131;
+	margin-top: 40px;
+}
+
+#social {
+	width: 300px;
+	margin: 15px auto 7px auto;
+}
+
+#social li {
+	text-align: left;
+	height: 39px;
+	padding-left: 60px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+#social li a {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#fb {
+	background: url(../img/fb.png) no-repeat;
+}
+
+#tw {
+	background: url(../img/tw.png) no-repeat;
+}
+
+#rss {
+	background: url(../img/rss.png) no-repeat;
+}
+
+#drib {
+	background: url(../img/drib.png) no-repeat;
+}
+
+#li {
+	background: url(../img/li.png) no-repeat;
+}
+
+#footer {
+	padding-bottom: 27px;
+}
+
+#footer p {
+	color: #a01331;
+}
