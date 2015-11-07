@@ -1,3 +1,4 @@
+@import url(reset.css);
 
 body {
   color: #8f8f8f;
@@ -28,7 +29,7 @@ p {
   margin: 20px 0;
 }
 
-#wrapper {
+.wrapper {
   max-width: 960px;
   margin: auto;
 }
@@ -76,7 +77,7 @@ nav li {
   color: #b2b2b2;
 }
 
-#heading {
+.heading {
   background: url(../img/bg_h1.png);
   margin: 30px 0;
   padding-left: 20px;
@@ -221,7 +222,7 @@ footer {
   font-size: 11px;
 }
 
-#footer {
+.footer {
   max-width: 960px;
   margin: auto;
   padding: 10px 0;
@@ -235,7 +236,7 @@ footer h3 {
   margin: 0 0 10px 0;
 }
 
-#twitter time a {
+.twitter time a {
   color: #b4aeae;
 }
 
@@ -243,12 +244,12 @@ footer p {
   margin: 5px 0;
 }
 
-#twitter {
+.twitter {
   float: left;
   width: 300px;
 }
 
-#twitter p {
+.twitter p {
   padding-right: 15px;
 }
 
@@ -256,33 +257,33 @@ footer a {
   color: #dbdbdb;
 }
 
-#sitemap {
+.sitemap {
   width: 150px;
   float: left;
   margin-left: 20px;
   padding-right: 15px;
 }
 
-#sitemap div {
+.sitemap div {
   display: inline-block;
 }
 
-#sitemap div + div {
+.sitemap div + div {
   margin-left: 40px;
 }
 
-#sitemap a {
+.sitemap a {
   display: block;
   text-decoration: none;
   font-size: 12px;
   margin-bottom: 5px;
 }
 
-#sitemap a:hover {
+.sitemap a:hover {
   text-decoration: underline;
 }
 
-#social {
+.social {
   float: left;
   margin-left: 20px;
   width: 130px;
@@ -337,7 +338,7 @@ footer a {
   background-position: -94px 0;
 }
 
-#footer-logo {
+.footer_logo {
   float: right;
   margin-top: 20px;
   font-size: 10px;
