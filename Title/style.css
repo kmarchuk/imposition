@@ -1,0 +1,106 @@
+/*-- Header Area --*/
+.header_area {
+    min-height: 600px;
+    background: url(img/bg.jpg)no-repeat scroll center center;
+    background-size: cover
+}
+
+.logo p {
+    color: #fff;
+    font-size: 20px;
+}
+.logo{
+    margin-top: 160px
+}
+.social_icons {
+}
+
+.social_icons a {}
+.social_icons a i {
+    background: none repeat scroll 0 0 #36241b;
+    border-radius: 30px;
+    color: #af9c93;
+    font-size: 22px;
+    padding: 10px;
+}
+.social_icons a:hover i {
+    color: #fff;
+    background: #2ECC71;
+}
+/*-- Header Area End --*/
+
+
+/*-- Promotion Area --*/
+.promotion_area {
+    margin: 60px 0;
+}
+
+.single_promotion i {
+    background: none repeat scroll 0 0 #2ecc71;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.single_promotion h2 {
+    font-size: 22px
+}
+
+.single_promotion p {
+    font-size: 16px;
+}
+/*-- Promotion Area End --*/
+
+
+/*-- Newsletter Area --*/
+
+.newsletter_area {
+    background: #E3E3E3;
+    padding: 50px 0
+}
+
+.newsletter_signup input[type=text] {
+    border: 1px solid #ddd;
+    float: left;
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px
+}
+.newsletter_signup input[type=submit] {
+    background: none repeat scroll 0 0 #2ecc71;
+    border: medium none;
+    color: #fff;
+    float: left;
+    font-weight: 700;
+    padding: 11px 20px;
+    border-radius: 0px 10px 10px 0px
+}
+/*-- Newsletter Area End --*/
+
+
+/*-- Footer Area --*/
+.footer_area {
+}
+
+.footer_menu {
+}
+
+.footer_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center
+}
+
+.footer_menu ul li {
+    display: inline
+}
+
+.footer_menu ul li a {
+    display: inline-block;
+    padding: 5px 15px;
+    color: #000;
+}
+.footer_menu ul li a:hover {
+    color: #e1e1e1 
+}
